@@ -24,5 +24,10 @@ namespace WpfApplication
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("无聊");
+        }
     }
 }
